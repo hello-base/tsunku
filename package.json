@@ -1,0 +1,10 @@
+{
+  "name": "tsunku",
+  "version": "1.0.0",
+  "description": "Hello! Team Cast's resident producer bot.",
+  "main": "app.js",
+  "repository": "https://github.com/hello-base/tsunku.git",
+  "author": "Bryan Veloso <bryan@avalonstar.com>",
+  "license": "MIT",
+  "private": true
+}

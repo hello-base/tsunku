@@ -16,9 +16,10 @@
   "scripts": {
     "precommit": "lint-staged",
     "start": "node app.js"
-  },  
+  },
   "dependencies": {
     "discord.js": "^11.3.0",
+    "dotenv": "^5.0.0",
     "node-opus": "^0.2.7"
   },
   "devDependencies": {

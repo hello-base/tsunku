@@ -7,8 +7,28 @@
   "author": "Bryan Veloso <bryan@avalonstar.com>",
   "license": "MIT",
   "private": true,
+  "lint-staged": {
+    "**/*.js": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "start": "node app.js"
+  },  
   "dependencies": {
     "discord.js": "^11.3.0",
     "node-opus": "^0.2.7"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.1.0",
+    "prettier": "^1.10.2"
   }
 }
